@@ -6,6 +6,7 @@ Mesmo fluxo do exercício 2.
 - path ("/users")
 - body
     - id
+    - name
     - email
     - password
 - response
@@ -19,20 +20,8 @@ Mesmo fluxo do exercício 2.
     - id
     - name
     - price
-    - category
+    - description
+    - imageUrl
 - response
     - status 201
     - "Produto cadastrado com sucesso"
-
-## Create Purchase
-- method HTTP (POST)
-- path ("/purchases")
-- body
-    - userId
-    - productId
-    - quantity
-    - totalPrice
-- response
-    - status 201
-    - "Compra realizada com sucesso"
-
