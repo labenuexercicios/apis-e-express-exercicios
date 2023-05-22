@@ -16,11 +16,12 @@ Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (
     - status 200
     - array de products do database.ts
 
-## Search Product by name
+## Refatorar o GET /products
+Deve ser possível fazer uma busca baseada em nome dos produtos via query params.
 - method HTTP (GET)
-- path ("/product/search")
+- path ("/product")
 - query params
-    - q
+    - name
 - response
     - status 200
     - array do resultado da busca
