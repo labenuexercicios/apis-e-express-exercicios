@@ -17,11 +17,11 @@ Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (
     - array de products do database.ts
 
 ## Refatorar o GET /products
-Deve ser possível fazer uma busca baseada em nome dos produtos via query params.
+Caso seja recebido um termo de busca no query params name, a resposta da API será a lista filtrada baseada no nome dos produtos. Caso a query params chegue undefined, continua sendo devolvida a lista de todos os produtos.
 - method HTTP (GET)
 - path ("/product")
 - query params
     - name
 - response
     - status 200
-    - array do resultado da busca
+    - array do resultado da busca ou todos os produtos
