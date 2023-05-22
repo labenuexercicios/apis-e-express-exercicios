@@ -1,7 +1,8 @@
 # Exercício 2
 Agora crie endpoints para automatizar a manipulação dos dados do arquivo database.ts.
-Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (caminho feliz).
-Obs: as alterações feitas nos dados mockados existirão apenas enquanto o **servidor estiver de pé**. Ao reiniciar o servidor, os dados voltarão para seus valores originais e **não incluírão as mudanças**. A persistência será implementada a partir das aulas de banco de dados.
+Por enquanto não se preocupe em validar as entradas, foque no caso de sucesso (caminho feliz).<br>
+Observação:
+- as alterações feitas nos dados mockados existirão apenas enquanto o **servidor estiver de pé**. Ao reiniciar o servidor, os dados voltarão para seus valores originais e **não incluírão as mudanças**. A persistência será implementada a partir das aulas de banco de dados.
 
 ## Get All Users
 - method HTTP (GET)
